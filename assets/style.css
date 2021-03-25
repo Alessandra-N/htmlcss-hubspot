@@ -1,0 +1,108 @@
+/****** css common rules ******/
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+body {
+    margin: auto;
+    
+}
+/****** /END/ css common rules ******/
+
+/****** css double nav  ******/
+
+.light_bg {
+    background-color: rgb(244, 249, 253);
+    border-bottom: 1px solid black;
+}
+
+.upper_nav {
+    width: 80%;
+    margin: auto
+}
+
+.bottom_nav {
+    width: 80%;
+    margin: auto;
+}
+
+.col_nav {
+    line-height: 100%;
+    vertical-align: middle;
+    display: inline;
+    width: 50%;
+}
+
+.globe_icon {
+    height: 2rem;
+    width: 2rem;
+    background-color: #33475b;
+    border-radius: 50px;
+}
+
+.col_nav>ul>li {
+    list-style: none;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.container_nav img {
+    height: 10px;
+    width: 10px;
+}
+/****** /END/ css double nav ******/
+
+/****** css jumbotron ******/
+
+.hero_image {
+    background-image: url(../img/jumbotron.png);
+    width: 100%;
+    height:600px;
+}
+
+.hero_titles {
+    position: absolute;
+    top: 40%;
+    left: 10%;
+    height: 100px;
+    width: 100px;
+    background-color: black;
+}
+
+/****** css colored line ******/
+.color_line {
+    height: 100px;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    background-color: aquamarine;
+}
+
+/****** css utility rules ******/
+.float {
+    float: left;
+}
+
+.right {
+    text-align: right;
+}
+
+.page {
+    height: 100vh;
+}
+
+.realative {
+    position: relative;
+}
+
+.center {
+    width: 80%;
+    margin: auto;
+}
