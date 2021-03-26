@@ -140,6 +140,18 @@ p {
 /****** /END/ css colred line ******/
 
 /****** css light blue section ******/
+.learn_more {
+    padding: 1.5rem 3.5rem;
+    border-radius: 5px;
+    margin: auto;
+}
+
+.col_container {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
 /* css cube part */
 .cards_section {
     background-color: rgb(244, 249, 253);
@@ -158,6 +170,10 @@ p {
     text-align: center;
 }
 
+.cubecard>h2 {
+    font-size: 35px;
+}
+
 .cubecard>*{
     margin-bottom: 1.5rem;
 }
@@ -167,35 +183,49 @@ p {
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
-    width: 500px;
-    height: 200px;
+    height: 55%;
     margin: auto;
 }
-/* /css cube part */
+/* /END/css cube part */
 
 
 /* css head card section */
-.learn, .three_cards {
-    background-color: slateblue;
-    height: 50%;
-    padding: 10px;
+.crm_card, .three_cards {
+    height: 100%;
 }
 
 .card {
-    background-color: springgreen;
+    height: 100%;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px 1px lightgray;
+    padding: 3rem 0rem;
+}
+
+.card_img {
+    width: 50%;
+    margin: auto;
+    height: 50%;
+    padding: 1rem 0;
+}
+
+#book_img {
+    background-image: url(../img/book.svg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
     height: 100%;
 }
 
 .col_learn_left {
     width: 30%;
-    background-color: slategray;
     height: 100%;
 }
 
 .col_learn_right {
     width: 70%;
     height: 100%;
-    background-color: violet;
 }
 
 /****** css utility rules ******/
