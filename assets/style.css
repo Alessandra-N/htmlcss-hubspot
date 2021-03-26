@@ -32,7 +32,6 @@ p {
 
 .light_bg {
     background-color: rgb(244, 249, 253);
-    border-bottom: 1px solid black;
 }
 
 .col_nav {
@@ -184,6 +183,7 @@ p {
     background-position: center;
     background-size: contain;
     height: 55%;
+    width: 45%;
     margin: auto;
 }
 /* /END/css cube part */
@@ -352,6 +352,19 @@ p {
 /* /END/ css three cards section */
 /****** /END/ css light blue section ******/
 
+/****** css bluegreen section ******/
+.blue_green_bg {
+    background: linear-gradient(45deg, #00a4bd, #00bda5);
+    height: 100%;
+}
+
+.prova {
+    background-color: tomato;
+    height: 100px;
+    width: 200px;
+}
+
+
 /****** css utility rules ******/
 .float {
     float: left;
@@ -380,4 +393,8 @@ p {
 
 .bold {
     font-weight: bold;
+}
+
+.brd_bot {
+    border-bottom: 1px solid black;
 }
