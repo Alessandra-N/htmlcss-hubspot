@@ -17,6 +17,11 @@ body {
     min-width: 1400px;
     
 }
+
+a{
+    text-decoration: none;
+}
+
 /****** /END/ css common rules ******/
 
 /****** css double nav  ******/
@@ -50,7 +55,6 @@ body {
 }
 
 .col_nav a {
-    text-decoration: none;
     color: #33475b
 }
 
@@ -101,18 +105,37 @@ body {
 
 .hero_titles {
     position: absolute;
-    top: 40%;
+    top: 10%;
     left: 10%;
     height: 100px;
-    width: 50%;
+    width: 30%;
 }
+
+.hero_titles >*{
+    margin-bottom: 2rem;
+    color: #33475b;
+}
+
+.hero_titles>h1 {
+    font-size: 45px;
+}
+
+.hero_titles>p {
+    line-height: 2rem;
+}
+
+.hero_titles>button {
+    padding: 1rem 2rem;
+    border-radius: 5px;
+}
+
 
 /****** css colored line ******/
 .color_line {
     height: 10vh;
     border-bottom: 1px solid black;
     border-top: 1px solid black;
-    background-color: aquamarine;
+    background-color: rgb(175, 235, 228);
 }
 
 /****** css light blue section ******/
@@ -188,4 +211,8 @@ body {
 .center {
     width: 80%;
     margin: auto;
+}
+
+.note {
+    font-size: 12px;
 }
