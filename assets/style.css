@@ -200,8 +200,13 @@ p {
     height: 100%;
 }
 
+.cards_title {
+    font-size: 25px;
+    padding: 3rem 0;
+}
+
 /* css head card column left */
-.crm_card, .three_cards {
+.crm_card {
     height: 100%;
     color: #33475b
 
@@ -236,6 +241,7 @@ p {
 .col_learn_right>h2 {
     margin: 1.5rem 0;
     font-size: 25px;
+    color: #33475b;
 }
 
 .col_learn_right>p{
@@ -266,6 +272,47 @@ p {
     border-radius: 20px;
     color: white;
     margin-right: 1rem;
+}
+/* /END/ css head card colum right */
+/* /END/ css head card section */
+
+/* css three cards section */
+.three_cards {
+    padding: 10vh 0;
+    background-color: rgb(244, 249, 253);
+    color: #33475b;
+}
+.threecards_container>.float {
+    width: calc(100% / 3);
+    height: 80vh;
+}
+
+.col_left {
+    background-color: yellowgreen;
+    padding: 1rem;
+}
+.col_center {
+    background-color: violet;
+    padding: 1rem;
+}
+.col_right {
+    background-color: teal;
+    padding: 1rem;
+}
+
+.buble_img {
+    background-image: url(../img/buble.svg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 25%;
+}
+
+
+.card_left, .card_center, .card_right {
+    height: 100%;
+    width: 100%;
 }
 
 /****** css utility rules ******/
