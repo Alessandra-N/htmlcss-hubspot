@@ -12,7 +12,9 @@
 }
 
 body {
+    font-family: Arial, Helvetica, sans-serif;
     margin: auto;
+    min-width: 1400px;
     
 }
 /****** /END/ css common rules ******/
@@ -28,7 +30,6 @@ body {
 .col_nav {
     line-height: 10vh;
     vertical-align: middle;
-    display: inline;
     width: 50%;
 }
 
@@ -37,17 +38,48 @@ body {
     vertical-align: middle;
 }
 
-.globe_icon {
-    height: 1.5rem;
-    width: 1.5rem;
-    background-color: #33475b;
-    border-radius: 50px;
-}
-
-.col_nav>ul>li {
+.col_nav > ul > li {
     list-style: none;
     text-decoration: none;
     display: inline-block;
+    margin-left: 1.2rem;
+}
+
+.col_nav > ul > i {
+    margin-left: 0.5rem
+}
+
+.col_nav a {
+    text-decoration: none;
+    color: #33475b
+}
+
+.col_nav .eng {
+    margin: 0 1.2rem;
+}
+
+.col_nav button {
+    margin-left: 1rem;
+    padding: 0.5rem;
+    border-radius: 5px;
+}
+
+.brd_orange {
+    background-color:  rgb(244, 249, 253);
+    border: 1px solid rgb(254, 119, 90);
+}
+
+.fill_orange {
+    background-color: rgb(254, 119, 90);
+    border: none;
+}
+
+.brd_orange > a {
+    color: rgb(254, 119, 90);
+}
+
+.fill_orange > a {
+    color: white;
 }
 
 .upper_nav img {
