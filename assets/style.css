@@ -15,11 +15,14 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     margin: auto;
     min-width: 1400px;
-    
 }
 
 a{
     text-decoration: none;
+}
+
+p {
+    line-height: 2rem;
 }
 
 /****** /END/ css common rules ******/
@@ -120,14 +123,11 @@ a{
     font-size: 45px;
 }
 
-.hero_titles>p {
-    line-height: 2rem;
-}
-
 .hero_titles>button {
     padding: 1rem 2rem;
     border-radius: 5px;
 }
+/***** /END/ css jumbotron ******/
 
 
 /****** css colored line ******/
@@ -137,9 +137,10 @@ a{
     border-top: 1px solid black;
     background-color: rgb(175, 235, 228);
 }
+/****** /END/ css colred line ******/
 
 /****** css light blue section ******/
-
+/* css cube part */
 .cards_section {
     background-color: rgb(244, 249, 253);
     height: 200vh;
@@ -147,13 +148,18 @@ a{
 
 .box {
     height: 50vh;
-    text-align: center;
 }
 
 .cubecard {
     height: 100%;
     width: 100%;
-    background-color: rosybrown;
+    color: #33475b;
+    padding-top: 2.5rem;
+    text-align: center;
+}
+
+.cubecard>*{
+    margin-bottom: 1.5rem;
 }
 
 .cube_img {
@@ -161,12 +167,14 @@ a{
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
-    background-color: royalblue;
     width: 500px;
     height: 200px;
     margin: auto;
 }
+/* /css cube part */
 
+
+/* css head card section */
 .learn, .three_cards {
     background-color: slateblue;
     height: 50%;
@@ -189,7 +197,6 @@ a{
     height: 100%;
     background-color: violet;
 }
-
 
 /****** css utility rules ******/
 .float {
