@@ -22,7 +22,7 @@ a{
 }
 
 p {
-    line-height: 2rem;
+    line-height: 1.8rem;
 }
 
 /****** /END/ css common rules ******/
@@ -190,8 +190,21 @@ p {
 
 
 /* css head card section */
+.col_learn_left {
+    width: 30%;
+    height: 100%;
+}
+
+.col_learn_right {
+    width: 70%;
+    height: 100%;
+}
+
+/* css head card column left */
 .crm_card, .three_cards {
     height: 100%;
+    color: #33475b
+
 }
 
 .card {
@@ -200,6 +213,7 @@ p {
     border-radius: 5px;
     box-shadow: 1px 1px 1px 1px lightgray;
     padding: 3rem 0rem;
+
 }
 
 .card_img {
@@ -217,15 +231,41 @@ p {
     width: 100%;
     height: 100%;
 }
-
-.col_learn_left {
-    width: 30%;
-    height: 100%;
+/* /END/css head card column left */
+/* css head card column right */
+.col_learn_right>h2 {
+    margin: 1.5rem 0;
+    font-size: 25px;
 }
 
-.col_learn_right {
-    width: 70%;
-    height: 100%;
+.col_learn_right>p{
+    margin-bottom: 2rem;
+}
+
+.line {
+    background-color: #33475b;
+    height: 1px;
+    width: 60%;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 2rem;
+}
+
+.checked_list {
+    margin-top: 3rem;
+}
+
+.checked {
+    margin-right: 2rem;
+}
+
+.checked::before{
+    content: "\2713";
+    background-color: rgb(254, 119, 90);
+    padding: 0.1rem 0.25rem;
+    border-radius: 20px;
+    color: white;
+    margin-right: 1rem;
 }
 
 /****** css utility rules ******/
@@ -252,4 +292,8 @@ p {
 
 .note {
     font-size: 12px;
+}
+
+.bold {
+    font-weight: bold;
 }
