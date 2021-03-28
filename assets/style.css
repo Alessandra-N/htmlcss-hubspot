@@ -113,7 +113,7 @@ p {
     width: 30%;
 }
 
-.hero_titles >*{
+.hero_titles>*,.w_square_left>*{
     margin-bottom: 2rem;
     color: #33475b;
 }
@@ -122,7 +122,7 @@ p {
     font-size: 45px;
 }
 
-.hero_titles>button {
+.hero_titles, .w_square_left>button {
     padding: 1rem 2rem;
     border-radius: 5px;
 }
@@ -455,6 +455,70 @@ p {
     background-image: url(../img/growth.svg);
 }
 
+/****** /END/ css bluegreen section ******/
+.womansection {
+    color: #33475b
+}
+
+.woman_container {
+    height: 100%;
+}
+
+.w_upper_row {
+    height: 40%;
+    text-align: center;    
+}
+
+.w_bottom_row {
+    height: 60%;
+}
+
+.w_square_left {
+    height: 100%;
+    width: 40%;
+    padding: 3rem;
+}
+
+.w_square_right {
+    width: 60%;
+    height: 100%;
+}
+
+.w_upper_row>.w_square_right {
+    padding: 7rem;
+}
+
+.logo_container {
+    width: 90%;
+}
+
+.logo_row {
+    width: 100%;
+    padding-bottom: 2rem;
+}
+
+.logo_aff {
+    width: 18%;
+    margin-right: 1rem
+}
+
+.w_square_left >h1 p button {
+    padding-bottom: 1rem;
+}
+
+.w_square_left>h1 {
+    font-size: 30px;
+}
+
+#w_img {
+    background-image: url(../img/woman.webp);
+    height: 70%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 60%;
+}
+
 /****** css utility rules ******/
 .float {
     float: left;
@@ -470,6 +534,10 @@ p {
 
 .relative {
     position: relative;
+}
+
+.absolute {
+    position: absolute;
 }
 
 .center {
