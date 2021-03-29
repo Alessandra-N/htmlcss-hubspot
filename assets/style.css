@@ -563,6 +563,23 @@ footer {
     margin-right: 1.5rem;
 }
 
+.footer_bottom>ul{
+    text-align: center;
+}
+
+.footer_bottom>.list_style>li {
+    display: inline;
+}
+
+.list_style>li>a {
+    color: white;
+    margin: 0 1rem;
+    font-size: 18px;
+}
+
+hr {
+    margin: 2rem 0;
+}
 
 /****** css utility rules ******/
 .float {
