@@ -534,6 +534,11 @@ footer {
     height: 60%;
 }
 
+.footer_bottom {
+    height: 40%;
+    width: 100%;
+}
+
 .footer_col {
     width: 25%;
     height: 100%;
@@ -571,7 +576,7 @@ footer {
     display: inline;
 }
 
-.list_style>li>a {
+.footer_bottom>.list_style>li>a {
     color: white;
     margin: 0 1rem;
     font-size: 18px;
@@ -579,6 +584,24 @@ footer {
 
 hr {
     margin: 2rem 0;
+}
+
+.footer_col_bot {
+    width: 50%;
+    height: 20%;
+}
+
+.footer_box {
+    width: 100%;
+}
+
+.logo_white {
+    height: 80%;
+    width: 20%;
+    background-image: url(../img/logo-white.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: 5rem 0 1rem 0;
 }
 
 /****** css utility rules ******/
