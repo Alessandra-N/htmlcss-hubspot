@@ -99,7 +99,6 @@ p {
     background-size: cover;
     background-position: 10% 60%;
     background-repeat: no-repeat;
-    width: 100%;
     height: calc(70vh - 2px);
 }
 
@@ -308,8 +307,12 @@ p {
     margin-top: 3rem;
 }
 
-.threecards_container>.float {
+.threecards_container>.col_center {
     padding: 1rem
+}
+
+.threecards_container>.col_left,.col_right {
+    padding: 1rem 0;
 }
 
 .three_img {
